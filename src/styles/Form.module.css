@@ -1,0 +1,93 @@
+.card {
+    position: relative;
+    width: 190px;
+    height: 300px;
+    border-radius: 20px;
+    background: #f5f5f5;
+    padding: 1.8rem;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    overflow: visible;
+    margin: 10% auto;
+   }
+   
+   .cardDetails {
+    color: black;
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+   }
+   
+   .cardButton {
+    transform: translate(-50%, 125%);
+    width: 60%;
+    border-radius: 1rem;
+    border: none;
+    background-color: #5BD83D;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+   }
+   
+   /*Hover*/
+   .card:hover {
+    border-color: #5BD83D;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+   }
+   
+   .card:hover .cardButton {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+   }
+
+/*---------------- INPUTS ------------------------------*/
+
+   .inputContainer {
+    position: relative;
+    margin: 50px auto;
+    width: 200px;
+  }
+  
+  .inputContainer input[type="email"] {
+    font-size: 13px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 5px 0;
+    background-color: transparent;
+    outline: none;
+  }
+  .inputContainer input[type="password"] {
+    font-size: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 5px 0;
+    background-color: transparent;
+    outline: none;
+  }
+  
+  
+  /*---------------- IMAGEN ------------------------------*/
+
+  .imagen{
+    object-fit: cover;
+    width:10rem;
+    margin:0 auto;
+    margin-top: 10px;
+    margin-bottom: -50px;
+
+  }
+
+  .errores{
+    /* display:inline-block; */
+    text-align: center;
+    font-size: 9px;
+    margin-top: -20px;
+  }

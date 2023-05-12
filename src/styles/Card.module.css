@@ -1,0 +1,13 @@
+.card{
+    background-color: #5BD83D;
+    border: 10px;
+    border-color: gray;
+    display: inline-block;
+    width: 20%;
+    margin: 2px;
+    text-align: center;
+}
+.cerrar{
+    background-color: red;
+    border-radius: 5px;
+}
